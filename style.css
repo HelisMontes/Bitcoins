@@ -58,7 +58,7 @@ header img{
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--off-white);
+  color: var(--white);
 }
 
 .header--title-container p{
@@ -67,4 +67,30 @@ header img{
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange);
+}
+.header--title-container .header--button{
+  position: absolute;
+  top: 270px;
+  display: block;
+  margin-top: 40px;
+  left: calc(50% - 112px);
+  text-align: center;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+.header--title-container .header--button span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 7px;
+  background-image: url('./assets/icons/down-arrow.svg');
 }
